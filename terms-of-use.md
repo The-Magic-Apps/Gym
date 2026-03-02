@@ -31,6 +31,3 @@ We reserve the right to discontinue the app at any time without notice.
 
 We may update these terms at any time. Continued use of the app after changes constitutes acceptance.
 
-## Contact
-
-Questions? Open an issue at [https://github.com/The-Magic-Apps/Gym/issues](https://github.com/The-Magic-Apps/Gym/issues).

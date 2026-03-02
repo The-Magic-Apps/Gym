@@ -37,6 +37,3 @@ The app does not knowingly collect data from children under 13, as it does not c
 
 If this policy changes, the updated version will be posted here with a new "Last updated" date.
 
-## Contact
-
-If you have questions about this policy, please open an issue at [https://github.com/The-Magic-Apps/Gym/issues](https://github.com/The-Magic-Apps/Gym/issues).
