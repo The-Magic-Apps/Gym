@@ -1,12 +1,5 @@
 # Gym App — Support & User Guide
 
-## Getting Help
-
-For bug reports, feature requests, or questions, please open an issue at:
-[https://github.com/The-Magic-Apps/Gym/issues](https://github.com/The-Magic-Apps/Gym/issues)
-
----
-
 ## Quick Start Guide
 
 ### Intervals Tab
