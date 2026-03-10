@@ -1,7 +1,7 @@
 # Terms of Use
 
 **Gym App**
-*Last updated: 2 March 2026*
+*Last updated: 10 March 2026*
 
 ## Acceptance
 
@@ -9,7 +9,7 @@ By downloading or using Gym App you agree to these terms.
 
 ## Use of the App
 
-Gym App is a fitness timer and workout planner provided "as is". You are responsible for your own health and safety when following any exercise plan. Consult a medical professional before beginning a new exercise programme.
+Gym App is a fitness timer and workout planner provided "as is". It is not a substitute for professional gym training advice or guidance. You are responsible for your own health and safety when following any exercise plan. Consult a qualified fitness professional or medical professional before beginning a new exercise programme.
 
 ## Subscriptions
 
