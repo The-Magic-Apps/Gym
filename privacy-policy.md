@@ -1,39 +1,74 @@
 # Privacy Policy
 
 **Gym App**
-*Last updated: 2 March 2026*
+*Last updated: 17 March 2026*
 
 ## Overview
 
-Gym App is an interval timer and workout planner. Your privacy matters — the app is designed to keep all your data on your device.
+Gym App is a workout planner and interval timer. Your workout data belongs to you — the app is designed to keep it on your device. This policy explains what data leaves your device, when, and why.
 
-## Data Collection
+---
 
-**We do not collect, store, or transmit any personal data.** All information you create in the app — interval configurations, workout sessions, exercise logs, and preferences — is stored locally on your device using on-device storage. None of this data is sent to our servers or any third party.
+## Data Stored On-Device
 
-Specifically:
+All workout data you create — interval configurations, workout templates, exercise logs, scheduled workouts, and preferences — is stored locally on your device. This data does not leave your device unless you enable one of the optional features described below.
 
-- **No accounts or sign-in** — the app does not require or support user accounts.
-- **No analytics or tracking** — we do not use any analytics, crash reporting, or advertising SDKs.
-- **No data sharing** — your data is never sold, rented, or shared with third parties.
+---
+
+## Optional Features That Send Data Externally
+
+### Cloud Sync
+
+**iOS — iCloud Sync:** Your workout data is synchronised across your Apple devices using Apple's iCloud Key-Value Store. This data is transmitted to and stored on Apple's servers under your Apple ID. We do not have access to this data. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for details.
+
+**Android — Google Drive Sync:** If you sign in with your Google account, your workout data is backed up to your personal Google Drive. This data is transmitted to and stored on Google's servers under your Google account. We do not have access to this data. See [Google's Privacy Policy](https://policies.google.com/privacy) for details. Sign-in is optional — you can use the app without it.
+
+### Strava Integration
+
+If you choose to connect your Strava account, completed workouts are uploaded to Strava as activity summaries. The data sent includes your workout name, duration, exercises performed, and sets/reps/weights, formatted as a text description. This data is transmitted to Strava's servers and is governed by [Strava's Privacy Policy](https://www.strava.com/legal/privacy). Connecting Strava is entirely optional. You can disconnect at any time in Settings → Connected Accounts.
+
+### Calendar Sync
+
+If you enable Calendar Sync, scheduled workout names and dates are written to a calendar on your device named "Gym App Workouts." This is an on-device operation. If your device syncs its calendar to iCloud or Google Calendar, those providers' privacy policies apply.
+
+### Feedback Submissions
+
+If you submit feedback via Settings → Feedback, the following information is sent to our feedback portal (hosted on Microsoft Azure):
+
+- Your message (free text you provide)
+- Category (Bug Report, Feature Request, or General)
+- Platform (iOS or Android)
+- App version (e.g. 1.0.0)
+- Operating system version (e.g. iOS 18.3)
+
+No name, email address, or account information is collected. Submissions are anonymous. This data is stored securely and used only to improve the app. We do not share it with third parties.
+
+---
 
 ## Subscriptions & In-App Purchases
 
 The app offers optional subscriptions billed through the Apple App Store. All purchase and payment processing is handled entirely by Apple using StoreKit. We do not receive, store, or transmit your payment information. No third-party purchase SDKs are used. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for details.
 
+---
+
 ## Speech & Audio
 
 The app uses your device's built-in text-to-speech engine for voice countdown cues. Speech synthesis is performed entirely on-device — no audio data is sent to external services.
 
-## Data Storage
-
-All app data is stored in your device's local storage. If you delete the app, all data is permanently removed. There is no cloud backup or sync feature.
+---
 
 ## Children's Privacy
 
-The app does not knowingly collect data from children under 13, as it does not collect data from anyone.
+The app does not knowingly collect personal data from children under 13. Feedback submissions are anonymous. Cloud sync features rely on the device owner's Apple or Google account.
+
+---
 
 ## Changes to This Policy
 
-If this policy changes, the updated version will be posted here with a new "Last updated" date.
+If this policy changes materially, the updated version will be posted here with a new "Last updated" date.
 
+---
+
+## Contact
+
+For questions about this policy, please visit [github.com/The-Magic-Apps/Gym](https://github.com/The-Magic-Apps/Gym).
