@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Gym App**
-*Last updated: 17 March 2026*
+*Last updated: 4 April 2026*
 
 ## Overview
 
@@ -11,7 +11,7 @@ Gym App is a workout planner and interval timer. Your workout data belongs to yo
 
 ## Data Stored On-Device
 
-All workout data you create — interval configurations, workout templates, exercise logs, scheduled workouts, and preferences — is stored locally on your device. This data does not leave your device unless you enable one of the optional features described below.
+All workout data you create — exercise library, workout sessions, interval configurations, cardio machines, scheduled workouts, completed workout logs, and preferences — is stored locally on your device. This data does not leave your device unless you enable one of the optional features described below.
 
 ---
 
@@ -19,13 +19,13 @@ All workout data you create — interval configurations, workout templates, exer
 
 ### Cloud Sync
 
-**iOS — iCloud Sync:** Your workout data is synchronised across your Apple devices using Apple's iCloud Key-Value Store. This data is transmitted to and stored on Apple's servers under your Apple ID. We do not have access to this data. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for details.
+**iOS — iCloud Sync:** Your workout data is synchronised across your Apple devices using Apple's iCloud Key-Value Store. This data is transmitted to and stored on Apple's servers under your Apple ID. We do not have access to this data. iCloud sync uses a small amount of your iCloud storage (typically under 1 MB). See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for details.
 
 **Android — Google Drive Sync:** If you sign in with your Google account, your workout data is backed up to your personal Google Drive. This data is transmitted to and stored on Google's servers under your Google account. We do not have access to this data. See [Google's Privacy Policy](https://policies.google.com/privacy) for details. Sign-in is optional — you can use the app without it.
 
 ### Strava Integration
 
-If you choose to connect your Strava account, completed workouts are uploaded to Strava as activity summaries. The data sent includes your workout name, duration, exercises performed, and sets/reps/weights, formatted as a text description. This data is transmitted to Strava's servers and is governed by [Strava's Privacy Policy](https://www.strava.com/legal/privacy). Connecting Strava is entirely optional. You can disconnect at any time in Settings → Connected Accounts.
+If you choose to connect your Strava account, completed workouts are uploaded to Strava as activity summaries. The data sent includes your workout name, duration, exercises performed, and sets/reps/weights, formatted as a text description. When you first connect, you may be prompted to upload existing completed workouts. This data is transmitted to Strava's servers and is governed by [Strava's Privacy Policy](https://www.strava.com/legal/privacy). Connecting Strava is entirely optional. You can disconnect at any time in Settings → Connected Accounts. Strava OAuth tokens are stored securely on your device using the iOS Keychain.
 
 ### Calendar Sync
 
@@ -33,7 +33,7 @@ If you enable Calendar Sync, scheduled workout names and dates are written to a 
 
 ### Feedback Submissions
 
-If you submit feedback via Settings → Feedback, the following information is sent to our feedback portal (hosted on Microsoft Azure):
+If you submit feedback via Settings → Feedback, the following information is sent to our feedback portal:
 
 - Your message (free text you provide)
 - Category (Bug Report, Feature Request, or General)
@@ -41,7 +41,27 @@ If you submit feedback via Settings → Feedback, the following information is s
 - App version (e.g. 1.0.0)
 - Operating system version (e.g. iOS 18.3)
 
-No name, email address, or account information is collected. Submissions are anonymous. This data is stored securely and used only to improve the app. We do not share it with third parties.
+No name, email address, or account information is collected. Submissions are anonymous. This data is stored on Microsoft Azure (Table Storage) and processed using Azure Functions. It is used only to improve the app. We do not sell or share this data with third parties beyond the infrastructure providers listed below.
+
+### Exercise Demos
+
+Exercise demo animations are fetched on-demand from ExerciseDB (exercisedb.dev), a public exercise database. When you download a demo, a request is made to their CDN containing only the exercise identifier. No personal data is sent. Downloaded demos are cached locally on your device.
+
+---
+
+## Third-Party Service Providers
+
+The following third-party services process data on our behalf:
+
+| Service | Purpose | Data Processed |
+|---------|---------|----------------|
+| Apple (iCloud) | Cloud sync | Workout data (encrypted by Apple) |
+| Google (Drive) | Cloud sync (Android) | Workout data (encrypted by Google) |
+| Strava | Activity upload | Workout summaries (user-initiated) |
+| Microsoft Azure | Feedback portal | Anonymous feedback submissions |
+| ExerciseDB | Exercise demos | Exercise identifier only |
+
+We do not use any analytics, advertising, or tracking services.
 
 ---
 
